@@ -1,11 +1,12 @@
 <div class="flex items-center h-16 xl:px-10">
     <p class="text-4xl mr-10">DAISY</p>
     <!-- search bar -->
-    <div>
-        <label className="input input-bordered flex items-center gap-2">
-            <input type="text" className="grow" placeholder="Search" />
+    <div class="w-[25%] mr-10 bg-background px-3 py-1 rounded-3xl">
+        <div class="flex items-center gap-2 w-full bg-transparent">
+            <input type="text" class="grow bg-background w-full" placeholder="Search" />
             <i class="fa-solid fa-magnifying-glass"></i>
-        </label>
+            <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+        </div>
     </div>
     <!-- Navigation bar -->
     <div>navigation bar</div>

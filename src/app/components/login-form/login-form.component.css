@@ -1,0 +1,5 @@
+.input-field {
+    background-color: var(--gray-background-color);
+    padding: 10px 10px;
+    width: 70%;
+}

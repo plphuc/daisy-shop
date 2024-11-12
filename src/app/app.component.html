@@ -1,17 +1,11 @@
-<div class="w-screen h-screen">
-    <div class="">
-        <app-header></app-header>
-        <div class="wrapper bg-background">
-            <div class="banner"></div>
-            <div class="authen-wrapper">
-                <div>
-                    <p>Hello Again!</p>
-                    <p>Welcome back you've been missed</p>
-                </div>
-                <div class="authen-form-wrapper">
-                    
+<div class="w-screen h-screen flex flex-col items-center bg-[#f4f2ef]">
+        <app-header class="w-full"></app-header>
+        <div class="flex justify-center items-center flex-1 w-full">
+            <div class="wrapper bg-background p-6 rounded-3xl flex gap-5 w-[70%]">
+                <div class="banner w-1/2"><img class="rounded-3xl w-full" src="/images/authenImage.jpg" /></div>
+                <div class="authen-wrapper flex flex-col flex-1 justify-center">
+                    <app-login-form></app-login-form>
                 </div>
             </div>
         </div>
-    </div>
 </div>

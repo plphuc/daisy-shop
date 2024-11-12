@@ -4,9 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
     * {
-        font-family: "Montserrat", sans-serif;
+        font-family: 'Montserrat', sans-serif;
     }
-  }
+}
+
+:root {
+    --gray-background-color: #f4f2ef;
+    --yellow-input-color: #eee4c1;
+    --yellow-text-color: #eee4c1;
+    --green-primary-color: #9eb48f;
+    --pink-button-color: #f4dbdb;
+    --pink-activated-button-color: #efbdbd;
+}
+input {
+    background-color: unset;
+    border: none;
+    height: unset;
+}
+
+input:focus {
+    outline: none;
+}
